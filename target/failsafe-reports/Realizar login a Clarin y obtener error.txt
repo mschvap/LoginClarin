@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Realizar login a Clarin y obtener error
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 126.56 s <<< FAILURE! - in Realizar login a Clarin y obtener error
+Realizar login a Clarin y obtener error(Realizar login a Clarin y obtener error)  Time elapsed: 89.1 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: an element that is present
+     but: no matching element found by xpath: //span[contains(text(),'Correo electrónico o contraseña incorrecta')] was not present
+

@@ -1,0 +1,3 @@
+runners\LoginClarinErrorRunner.class
+stepdefinitions\LoginClarinSteps.class
+runners\LoginClarinRunner.class
