@@ -12,5 +12,5 @@ Feature: Realizar login a Clarin y obtener error
 
     Examples:
       |usuario                 |contrasena|
-      |usuariopase10@gmail.com |Pase.1234 |
+      |usuariopase12@gmail.com |Pase.1234 |
       |usuariopase11@gmail.com |Pase.1234 |
