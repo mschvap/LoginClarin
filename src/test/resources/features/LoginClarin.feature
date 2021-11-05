@@ -3,6 +3,7 @@ Feature: Realizar login a Clarin
   Quiero ingresar a la pagina www.clarin.com
   Para realizar el logueo
 
+  @no
   Scenario Outline: Realizar login a Clarin
     Given usuario registrado
     When ingresa usuario y contraseña

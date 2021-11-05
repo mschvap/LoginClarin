@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Realizar login a Clarin","type":"feature","href":"eacf678691c2cca98fab78c717153274b2d197050be09b341f1f964a2e91d24e.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Realizar login a Clarin","type":"feature","href":"eacf678691c2cca98fab78c717153274b2d197050be09b341f1f964a2e91d24e.html","nodes":[],"selectable":false,"tags":["",""]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-11-2021 09:20</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -285,20 +285,10 @@ Para realizar el logueo
                                                                 <table>
                                                                     <tr>
                                                                         <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="35a38241d492ca06c1c749ae9f72fffb56adc1790f786aad76fad0fc874b01df.html"
-                                                                               title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
-                                                                            </a>
+                                                                            
+                                                                            
 
                                                                         
-                                                                        </td>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="35a38241d492ca06c1c749ae9f72fffb56adc1790f786aad76fad0fc874b01df.html"
-                                                                               title="View test results">
-                                                                                <i class="fas fa-search-plus"></i>
-                                                                            </a>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -311,15 +301,16 @@ Para realizar el logueo
                                             <h3>Scenario details</h3>
 
                                                 <div class="scenario-docs card" id="399e0e4e6dd7653adf1ab91da0ef10ef599bfae0935d7a1623babc4d3310587b">
-                                                    <div class="scenario-docs card-header failure" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
-                                                                <a href="35a38241d492ca06c1c749ae9f72fffb56adc1790f786aad76fad0fc874b01df.html" title="View test results">Realizar login a Clarin</a>
+                                                                <a href="" title="View test results">Realizar login a Clarin</a>
                                                             </span>
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                    <i class="fas fa-pause"
+                                                                       title="No test has been implemented yet"></i>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -341,7 +332,7 @@ Para realizar el logueo
 <tr><th>usuario</th><th>contrasena</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>usuariopase1@gmail.com</td><td>Pase.1234</td><td><a href='35a38241d492ca06c1c749ae9f72fffb56adc1790f786aad76fad0fc874b01df.html#beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a></td></tr>
+<tr><td>usuariopase1@gmail.com</td><td>Pase.1234</td><td> </td></tr>
 </tbody>
 </table></div>
 </p>
@@ -356,41 +347,7 @@ Para realizar el logueo
                             <div id="results" class="tab-pane fade">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-4">
-
-                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                <div class="ct-chart ct-square"></div>
-                                            </div>
-                                            <script>
-
-                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' ', ' ', ' '];
-                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                // as you saw in the previous example
-                                                var options = {
-                                                    width: 350,
-                                                    height: 300
-                                                };
-
-                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                    new Chartist.Pie('.ct-chart', {
-                                                        series: series,
-                                                        labels: labels,
-                                                    }, {
-                                                        donut: true,
-                                                        donutWidth: 60,
-                                                        donutSolid: true,
-                                                        startAngle: 270,
-                                                        showLabel: true
-                                                    }, options);
-                                                });
-
-                                            </script>
-                                        </div>
-                                        <div class="col-sm-8">
+                                        <div class="col-sm-12">
 
                                         <table class="table">
                                             <thead>
@@ -431,19 +388,19 @@ Para realizar el logueo
                                                 <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                             <td colspan="3"><a href="b87a9879292db25677527cdd7b00f506da7174b9facbc564695a4a215a101ec8.html"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                            <td colspan="3"><i
+                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
 
                                             </tr>
 
                                             <tr>
-                                                                    <td class="aggregate-result-count indented-error-category">
-                                                                        <a href="2fd807b881d00e0ed5dab49fd1bb9e51e7a69f8004d76715f40f4f111be69062.html"><i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
-                                                                    </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">100%</td>
+                                                                <td class="aggregate-result-count indented-error-category">
+                                                                    <i
+                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -461,7 +418,7 @@ Para realizar el logueo
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">0</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -483,11 +440,11 @@ Para realizar el logueo
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>36s</td>
-                                                        <td>36ms</td>
-                                                        <td>35s</td>
-                                                        <td>35s</td>
-                                                        <td>36s</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -510,17 +467,17 @@ Para realizar el logueo
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result FAILURE">
+                                                <tr class="scenario-result UNDEFINED">
                                                     <td>
-                                                            <a href="35a38241d492ca06c1c749ae9f72fffb56adc1790f786aad76fad0fc874b01df.html">Realizar login a Clarin</a>
+                                                            Realizar login a Clarin
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
                                                     <td> </td>
                                                     <td> </td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                style="display:none">FAILURE</span>
+                                                            <i class="fas fa-pause"
+                                                               title="No test has been implemented yet"></i>
                                                     </td>
                                                 </tr>
                                                 </tbody>

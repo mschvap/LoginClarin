@@ -1,4 +1,8 @@
 userinterfaces\HomePage.class
+tasks\ActivarMail.class
 tasks\IngresarUserYPass.class
+userinterfaces\MailPage.class
+userinterfaces\ListaMailPage.class
+tasks\IngresarARegistro.class
 userinterfaces\AuthCeroPage.class
 tasks\IngresarALogin.class

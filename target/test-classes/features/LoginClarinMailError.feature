@@ -3,7 +3,7 @@ Feature: Realizar login a Clarin y obtener error
   Quiero ingresar a la pagina www.clarin.com
   Para realizar el logueo y obtener error
 
-
+  @no
   Scenario Outline: Realizar login a Clarin y obtener error
     Given usuario registrado
     When ingresa usuario y contraseña

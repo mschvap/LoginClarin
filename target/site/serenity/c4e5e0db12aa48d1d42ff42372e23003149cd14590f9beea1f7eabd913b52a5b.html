@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Realizar login a Clarin y obtener error","type":"feature","href":"c4e5e0db12aa48d1d42ff42372e23003149cd14590f9beea1f7eabd913b52a5b.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Realizar login a Clarin y obtener error","type":"feature","href":"c4e5e0db12aa48d1d42ff42372e23003149cd14590f9beea1f7eabd913b52a5b.html","nodes":[],"selectable":false,"tags":["",""]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-11-2021 09:20</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -285,20 +285,10 @@ Para realizar el logueo y obtener error
                                                                 <table>
                                                                     <tr>
                                                                         <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="159827894543daa2de84e9781c40f4ff74248c6059ca5184c354ec0d4654df47.html"
-                                                                               title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                                            </a>
+                                                                            
+                                                                            
 
                                                                         
-                                                                        </td>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="159827894543daa2de84e9781c40f4ff74248c6059ca5184c354ec0d4654df47.html"
-                                                                               title="View test results">
-                                                                                <i class="fas fa-search-plus"></i>
-                                                                            </a>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -311,15 +301,16 @@ Para realizar el logueo y obtener error
                                             <h3>Scenario details</h3>
 
                                                 <div class="scenario-docs card" id="a1201fee92bbb911d3dd10234338b8abd0781e2c4817d2c146b0be22fe41bbcb">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
-                                                                <a href="159827894543daa2de84e9781c40f4ff74248c6059ca5184c354ec0d4654df47.html" title="View test results">Realizar login a Clarin y obtener error</a>
+                                                                <a href="" title="View test results">Realizar login a Clarin y obtener error</a>
                                                             </span>
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                    <i class="fas fa-pause"
+                                                                       title="No test has been implemented yet"></i>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -341,8 +332,8 @@ Para realizar el logueo y obtener error
 <tr><th>usuario</th><th>contrasena</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>usuariopase12@gmail.com</td><td>Pase.1234</td><td><a href='159827894543daa2de84e9781c40f4ff74248c6059ca5184c354ec0d4654df47.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
-<tr><td>usuariopase11@gmail.com</td><td>Pase.1234</td><td><a href='159827894543daa2de84e9781c40f4ff74248c6059ca5184c354ec0d4654df47.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
+<tr><td>usuariopase12@gmail.com</td><td>Pase.1234</td><td> </td></tr>
+<tr><td>usuariopase11@gmail.com</td><td>Pase.1234</td><td> </td></tr>
 </tbody>
 </table></div>
 </p>
@@ -357,41 +348,7 @@ Para realizar el logueo y obtener error
                             <div id="results" class="tab-pane fade">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-4">
-
-                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                <div class="ct-chart ct-square"></div>
-                                            </div>
-                                            <script>
-
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
-                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                // as you saw in the previous example
-                                                var options = {
-                                                    width: 350,
-                                                    height: 300
-                                                };
-
-                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                    new Chartist.Pie('.ct-chart', {
-                                                        series: series,
-                                                        labels: labels,
-                                                    }, {
-                                                        donut: true,
-                                                        donutWidth: 60,
-                                                        donutSolid: true,
-                                                        startAngle: 270,
-                                                        showLabel: true
-                                                    }, options);
-                                                });
-
-                                            </script>
-                                        </div>
-                                        <div class="col-sm-8">
+                                        <div class="col-sm-12">
 
                                         <table class="table">
                                             <thead>
@@ -404,12 +361,11 @@ Para realizar el logueo y obtener error
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="0dadeb024900576dc3e85ee9fbb74eacc2f516130b41f25e530dd8be9391740e.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                <td class="automated-stats">2</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -463,7 +419,7 @@ Para realizar el logueo y obtener error
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">0</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -485,11 +441,11 @@ Para realizar el logueo y obtener error
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>50s</td>
-                                                        <td>50ms</td>
-                                                        <td>19s</td>
-                                                        <td>29s</td>
-                                                        <td>50s</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -512,17 +468,17 @@ Para realizar el logueo y obtener error
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result UNDEFINED">
                                                     <td>
-                                                            <a href="159827894543daa2de84e9781c40f4ff74248c6059ca5184c354ec0d4654df47.html">Realizar login a Clarin y obtener error</a>
+                                                            Realizar login a Clarin y obtener error
                                                                (2 examples)
                                                     </td>
                                                     <td>3</td>
                                                     <td> </td>
                                                     <td> </td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                style="display:none">SUCCESS</span>
+                                                            <i class="fas fa-pause"
+                                                               title="No test has been implemented yet"></i>
                                                     </td>
                                                 </tr>
                                                 </tbody>

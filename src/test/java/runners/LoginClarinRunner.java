@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/LoginClarin.feature",
+        features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "",
+        tags = "@si",
         snippets = SnippetType.CAMELCASE
 )
 

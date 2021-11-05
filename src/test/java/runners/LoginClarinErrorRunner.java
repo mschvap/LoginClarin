@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/LoginClarinMailError.feature",
         glue = "stepdefinitions",
-        tags = "",
+        tags = "@cancel",
         snippets = SnippetType.CAMELCASE
 )
 

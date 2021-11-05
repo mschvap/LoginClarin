@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Realizar login a Clarin y obtener error
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.353 s - in Realizar login a Clarin y obtener error
