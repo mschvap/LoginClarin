@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 
-@DefaultUrl("https://www.clarin.com/")
+@DefaultUrl("https://prepro.int.clarin.com/")
 public class HomePage extends PageObject {
 
     /*--TASK--*/

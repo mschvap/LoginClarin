@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Realizar login a Clarin
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 102.734 s - in Realizar login a Clarin
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.112 s - in Realizar login a Clarin
