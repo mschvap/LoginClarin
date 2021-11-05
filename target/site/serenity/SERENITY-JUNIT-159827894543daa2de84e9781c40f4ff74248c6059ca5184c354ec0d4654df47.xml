@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Realizar login a Clarin y obtener error" skipped="0" tests="2" time="45.81" timestamp="2021-11-04 12:16:32"><testcase name="Realizar login a Clarin y obtener error"><failure message="&#10;Expected: an element that is present&#10;     but: no matching element found by xpath: //span[contains(text(),'Correo electrónico o contraseña incorrecta')] was not present" type="java.lang.AssertionError">
-Expected: an element that is present
-     but: no matching element found by xpath: //span[contains(text(),'Correo electrónico o contraseña incorrecta')] was not present</failure><system-err>
-Expected: an element that is present
-     but: no matching element found by xpath: //span[contains(text(),'Correo electrónico o contraseña incorrecta')] was not present&#13;
-stepdefinitions.LoginClarinSteps.se_ve_mensaje_de_error_de_mail(LoginClarinSteps.java:63)&#13;
-✽.se ve mensaje de error de mail(src/test/resources/features/LoginClarinMailError.feature:11)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Realizar login a Clarin y obtener error" skipped="0" tests="2" time="50.54" timestamp="2021-11-05 09:20:01"><testcase name="Realizar login a Clarin y obtener error"/></testsuite>

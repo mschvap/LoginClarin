@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-11-2021 12:16</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-11-2021 09:20</span>
     <br style="clear:left"/>
 </div>
 
@@ -191,9 +191,9 @@ Para realizar el logueo
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Realizar login a Clarin
+                                <span class="failing-color">Realizar login a Clarin
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -214,39 +214,72 @@ Para realizar el logueo
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: an element that is present but: no matching element found by xpath: //p[contains(text(),'Hola')] was not present</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>stepdefinitions.LoginClarinSteps.se_ve_mensaje_de_bienvenida(LoginClarinSteps.java:58)<br />✽.se ve mensaje de bienvenida(src/test/resources/features/LoginClarin.feature:10)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3557089815688073639.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="72695edb11641ff8646a1ff07b72ffa25a5f72d0421f12b97f37db9f872a627e.png" title=" Example: {usuario=usuariopase1@gmail.com, contrasena=Pase.1234}" width="1366"/>
-                <img src="72695edb11641ff8646a1ff07b72ffa25a5f72d0421f12b97f37db9f872a627e.png" title=" Given usuario registrado" width="1366"/>
-                <img src="72695edb11641ff8646a1ff07b72ffa25a5f72d0421f12b97f37db9f872a627e.png" title=" User opens the Home page" width="1366"/>
-                <img src="98ecc564c433444a7a08ffe4b65404c4a1a80e000eb363555aeb3500da5a9584.png" title=" Given usuario registrado (completed)" width="1268"/>
-                <img src="98ecc564c433444a7a08ffe4b65404c4a1a80e000eb363555aeb3500da5a9584.png" title=" When ingresa usuario y contrase&ntilde;a
+                <img src="140ab822c8c915564be0f1c635e4df83446aa5cd4a9e03c9420b6f4959b4c2fc.png" title=" Example: {usuario=usuariopase1@gmail.com, contrasena=Pase.1234}" width="1366"/>
+                <img src="140ab822c8c915564be0f1c635e4df83446aa5cd4a9e03c9420b6f4959b4c2fc.png" title=" Given usuario registrado" width="1366"/>
+                <img src="140ab822c8c915564be0f1c635e4df83446aa5cd4a9e03c9420b6f4959b4c2fc.png" title=" User opens the Home page" width="1366"/>
+                <img src="0b5d2da5e9a3845cf2a7b3f6dd824d1d88e5bd57bf8f3d0a111c8855b80f95b1.png" title=" Given usuario registrado (completed)" width="1268"/>
+                <img src="0b5d2da5e9a3845cf2a7b3f6dd824d1d88e5bd57bf8f3d0a111c8855b80f95b1.png" title=" When ingresa usuario y contrase&ntilde;a
 | usuariopase1@gmail.com | Pase.1234 |" width="1268"/>
-                <img src="191191a58b0580cdddac6c262bcd56f1c68c20639925578ce5f577445ca2a790.png" title=" User clicks on Boton cerrar publicidad" width="1268"/>
-                <img src="56f4b7474026aba6290d3679cc9a3249df31f7311f2563abd2f48233d3199b37.png" title=" User clicks on Boton cerrar publicidad (completed)" width="1268"/>
-                <img src="9fd9a749ddd012173f595adace228e1d56d311f86dc7aa2f1b6f31cd0faf81ad.png" title=" User ingresar a login" width="1268"/>
-                <img src="9fd9a749ddd012173f595adace228e1d56d311f86dc7aa2f1b6f31cd0faf81ad.png" title=" User clicks on Boton ingresar" width="1268"/>
-                <img src="2622e09f378975da34c5e4723ef12583e7ba5e4e9926723b2ad5453cd1e6c15c.png" title=" User clicks on Boton ingresar (completed)" width="1268"/>
-                <img src="2622e09f378975da34c5e4723ef12583e7ba5e4e9926723b2ad5453cd1e6c15c.png" title=" User ingresar a login (completed)" width="1268"/>
-                <img src="2622e09f378975da34c5e4723ef12583e7ba5e4e9926723b2ad5453cd1e6c15c.png" title=" User ingresar user y pass" width="1268"/>
+                <img src="cb439647bfc3820770354983907f73ad1847791b46de0564df6066fb0804e096.png" title=" User ingresar a login" width="1268"/>
+                <img src="cb439647bfc3820770354983907f73ad1847791b46de0564df6066fb0804e096.png" title=" User clicks on Boton ingresar" width="1268"/>
+                <img src="25514c58429d857764b6bdf386a830eb0bc9c9ffabe05ae81c87565b33f0921c.png" title=" User clicks on Boton ingresar (completed)" width="1268"/>
+                <img src="25514c58429d857764b6bdf386a830eb0bc9c9ffabe05ae81c87565b33f0921c.png" title=" User ingresar a login (completed)" width="1268"/>
+                <img src="25514c58429d857764b6bdf386a830eb0bc9c9ffabe05ae81c87565b33f0921c.png" title=" User ingresar user y pass" width="1268"/>
                 <img src="3d7c454a54bd1c8c8eb00d9faecb1c9cf0f992c538c5cd98318b53910f5ea3ab.png" title=" User enters 'usuariopase1@gmail.com' into Input de usuario" width="1268"/>
                 <img src="ff59a002f13b5a971e16a5bbd349f470f5a194d93e908cdaea26dbaf2f7da089.png" title=" User enters 'usuariopase1@gmail.com' into Input de usuario (completed)" width="1268"/>
                 <img src="ff59a002f13b5a971e16a5bbd349f470f5a194d93e908cdaea26dbaf2f7da089.png" title=" User clicks on Boton Continuar" width="1268"/>
-                <img src="cb50892c7d6015f0d75501a2a5bacade966afe3f153a7806d2e635dcdf4a5072.png" title=" User clicks on Boton Continuar (completed)" width="1268"/>
-                <img src="cb50892c7d6015f0d75501a2a5bacade966afe3f153a7806d2e635dcdf4a5072.png" title=" User enters 'Pase.1234' into Input de contrase&ntilde;a" width="1268"/>
+                <img src="aa66989fb2fc0c4af4503055b2c75f6637f90474738cbd7aca1380c7014da437.png" title=" User clicks on Boton Continuar (completed)" width="1268"/>
+                <img src="aa66989fb2fc0c4af4503055b2c75f6637f90474738cbd7aca1380c7014da437.png" title=" User enters 'Pase.1234' into Input de contrase&ntilde;a" width="1268"/>
                 <img src="71e097deec26ae9bc8aec3129f537cfe07fb3b2f338a2f311b042aa1c29c6639.png" title=" User enters 'Pase.1234' into Input de contrase&ntilde;a (completed)" width="1268"/>
                 <img src="71e097deec26ae9bc8aec3129f537cfe07fb3b2f338a2f311b042aa1c29c6639.png" title=" User clicks on Boton Continuar" width="1268"/>
-                <img src="98c1fb9ef480d77d0c0761da08d2c2752fd87572e0578a5409414df87eaf7409.png" title=" User clicks on Boton Continuar (completed)" width="1268"/>
-                <img src="98c1fb9ef480d77d0c0761da08d2c2752fd87572e0578a5409414df87eaf7409.png" title=" User ingresar user y pass (completed)" width="1268"/>
-                <img src="98c1fb9ef480d77d0c0761da08d2c2752fd87572e0578a5409414df87eaf7409.png" title=" When ingresa usuario y contrase&ntilde;a
+                <img src="b2a06c93b241f0afd7fb2630b546425d923759d76a2d57655892cd946247749d.png" title=" User clicks on Boton Continuar (completed)" width="1268"/>
+                <img src="b2a06c93b241f0afd7fb2630b546425d923759d76a2d57655892cd946247749d.png" title=" User ingresar user y pass (completed)" width="1268"/>
+                <img src="b2a06c93b241f0afd7fb2630b546425d923759d76a2d57655892cd946247749d.png" title=" When ingresa usuario y contrase&ntilde;a
 | usuariopase1@gmail.com | Pase.1234 | (completed)" width="1268"/>
-                <img src="98c1fb9ef480d77d0c0761da08d2c2752fd87572e0578a5409414df87eaf7409.png" title=" Then se ve mensaje de bienvenida" width="1268"/>
-                <img src="f986fcd7df76e3f05667b5053c2ebb87982ee44f98b04cd9edeadc4a540459df.png" title=" User clicks on Boton cerrar publicidad" width="1268"/>
-                <img src="1bae8cdef44f84ae5fc2bafc84044911ed2ae7aa9557de4191c8a116492412ef.png" title=" User clicks on Boton cerrar publicidad (completed)" width="1268"/>
-                <img src="e1caddd106c18e3316655294de0cd6f931a1d5cfc4750de46d2026417119822a.png" title=" Then Texto de bienvenida should be an element that is present" width="1268"/>
-                <img src="ace2e73454e98f8d3e3c5350ada9e4150ec73688a464fe24b19a59d96f087b93.png" title=" Then Texto de bienvenida should be an element that is present (completed)" width="1268"/>
-                <img src="ace2e73454e98f8d3e3c5350ada9e4150ec73688a464fe24b19a59d96f087b93.png" title=" Then se ve mensaje de bienvenida (completed)" width="1268"/>
-                <img src="ace2e73454e98f8d3e3c5350ada9e4150ec73688a464fe24b19a59d96f087b93.png" title=" Example: {usuario=usuariopase1@gmail.com, contrasena=Pase.1234} (completed): <span class='success-color'>SUCCESS</span>" width="1268"/>
+                <img src="b2a06c93b241f0afd7fb2630b546425d923759d76a2d57655892cd946247749d.png" title=" Then se ve mensaje de bienvenida" width="1268"/>
+                <img src="30ba06cdeb3a8aa620c648e808adbe34da12ec01b298d2300a50dd23c8d42472.png" title=" Then Texto de bienvenida should be an element that is present" width="1268"/>
+                <img src="30ba06cdeb3a8aa620c648e808adbe34da12ec01b298d2300a50dd23c8d42472.png" title=" Then Texto de bienvenida should be an element that is present (completed): <span class='failing-color'>FAILURE</span>" width="1268"/>
             </div>
         </div>
 

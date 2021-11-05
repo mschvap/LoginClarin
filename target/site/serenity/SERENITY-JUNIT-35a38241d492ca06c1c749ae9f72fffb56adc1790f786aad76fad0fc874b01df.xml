@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Realizar login a Clarin" skipped="0" tests="1" time="28.21" timestamp="2021-11-04 12:16:32"><testcase name="Realizar login a Clarin"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Realizar login a Clarin" skipped="0" tests="1" time="36.7" timestamp="2021-11-05 09:20:01"><testcase name="Realizar login a Clarin"><failure message="&#10;Expected: an element that is present&#10;     but: no matching element found by xpath: //p[contains(text(),'Hola')] was not present" type="java.lang.AssertionError">
+Expected: an element that is present
+     but: no matching element found by xpath: //p[contains(text(),'Hola')] was not present</failure><system-err>
+Expected: an element that is present
+     but: no matching element found by xpath: //p[contains(text(),'Hola')] was not present&#13;
+stepdefinitions.LoginClarinSteps.se_ve_mensaje_de_bienvenida(LoginClarinSteps.java:58)&#13;
+✽.se ve mensaje de bienvenida(src/test/resources/features/LoginClarin.feature:10)&#13;
+</system-err></testcase></testsuite>

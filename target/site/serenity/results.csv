@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Realizar login a Clarin","Realizar login a Clarin","SUCCESS","2021-11-04T12:16:32.116-03:00[America/Buenos_Aires]","0.0","28.21"
-"Realizar login a Clarin y obtener error","Realizar login a Clarin y obtener error","FAILURE","2021-11-04T12:16:32.101-03:00[America/Buenos_Aires]","0.0","45.81"
+"Realizar login a Clarin","Realizar login a Clarin","FAILURE","2021-11-05T09:20:01.038-03:00[America/Buenos_Aires]","0.0","36.7"
+"Realizar login a Clarin y obtener error","Realizar login a Clarin y obtener error","SUCCESS","2021-11-05T09:20:01.038-03:00[America/Buenos_Aires]","0.0","50.54"
