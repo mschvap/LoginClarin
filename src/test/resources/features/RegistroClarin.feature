@@ -1,6 +1,6 @@
 Feature: Realizar registro a Clarin
   Como usuario no registrado
-  Quiero ingresar a la pagina www.clarin.com
+  Quiero ingresar a la pagina https://prepro.int.clarin.com/
   Para realizar el registro de cuenta
 
   @si
@@ -12,4 +12,4 @@ Feature: Realizar registro a Clarin
 
     Examples:
       |usuario                  |contrasena|
-      |usuariopase10@yopmail.com |Pase.1234 |
+      |usuariopase11@yopmail.com |Pase.1234 |
