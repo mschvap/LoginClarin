@@ -12,4 +12,4 @@ Feature: Realizar registro a Clarin
 
     Examples:
       |usuario                  |contrasena|
-      |usuariopase11@yopmail.com |Pase.1234 |
+      |usuariopase12@yopmail.com |Pase.1234 |

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec1ad514-fa7e-4b0d-89d3-86ac96732d8d" name="Changes" comment="Se agrega registracion de cuenta via mail" />
+    <list default="true" id="ec1ad514-fa7e-4b0d-89d3-86ac96732d8d" name="Changes" comment="Se modifica dato de nuevo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636140530735</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Se modifica dato">
+      <created>1636140592493</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1636140592493</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Se modifica dato de nuevo">
+      <created>1636140828254</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1636140828254</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Se modifica dato de nuevo">
+      <created>1636141470535</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1636141470535</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +310,9 @@
     <MESSAGE value="Modificacion de datos" />
     <MESSAGE value="Modificacion URL" />
     <MESSAGE value="Se agrega registracion de cuenta via mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega registracion de cuenta via mail" />
+    <MESSAGE value="Se modifica dato" />
+    <MESSAGE value="Se modifica dato de nuevo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifica dato de nuevo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
